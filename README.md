@@ -34,8 +34,8 @@ bundle install
 require 'gitfetch'
 
 # Git.fetch(repository, access_token=nil, update_head=false)
-# connects to remote "origin" of +repository_path+ using +access_token+ as
-# username for authentication:
+# connects to remote "origin" of +repository_path+ using +access_token+
+# for authentication:
 #
 # - prunes tracking refs that are no longer present on remote
 # - downloads new data and update tips
@@ -43,15 +43,15 @@ require 'gitfetch'
 # example:
 Git.fetch('repository.git', '6a61e7dddd28c...')
 
-# Git.mirror(remote_url, path, access_token)
+# Git.clone_bare(remote_url, path, access_token)
 # Set up a (bare) mirror of the remote repository.
 # example:
-Git.mirror('https://github.com/octokit/Spoon-Knife.git', '/data/git/Spoon-Knife.git', '6a61e7dddd28c...')
+Git.clone_bare('https://github.com/octokit/Spoon-Knife.git', '/data/git/Spoon-Knife.git', '6a61e7dddd28c...')
 
 # Git.push(repository_path, push_url, access_token)
 # Pushes local repository to remote push_url
 # example:
-Git.push('/data/git/repository.git', 'https://github.com/backhub/new_repository.git', '6a61e7dddd28c...')
+Git.push('/data/git/repository.git', 'https://github.com/backhub/repository.git', '6a61e7dddd28c...')
 
 # Git.libgit2_version
 # Returns the version String of libgit2
