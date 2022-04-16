@@ -10,9 +10,9 @@ Gem::Specification.new do |s|
   s.files                 = %w( README.md CHANGELOG.md LICENSE )
   s.files                 += Dir.glob("ext/**/*.[ch]")
   s.extensions            = ['ext/extconf.rb']
-  s.metadata              = { "changelog_uri"     => "https://github.com/backhub/gitfetch/blob/master/CHANGELOG.md",
+  s.metadata              = { "changelog_uri"     => "https://github.com/cschlack/gitfetch/blob/master/CHANGELOG.md",
                               "documentation_uri" => "https://rubydoc.info/gems/gitfetch",
-                              "source_code_uri"   => "https://github.com/backhub/gitfetch" }
+                              "source_code_uri"   => "https://github.com/cschlack/gitfetch" }
   s.required_ruby_version = '>= 1.9.3'
   s.description           = <<desc
 Clone/fetch (or push to) git repositories.
