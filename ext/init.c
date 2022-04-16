@@ -38,9 +38,7 @@ void Init_gitfetch() {
   Init_gitfetch_has_commits();
   Init_gitfetch_is_repository();
   Init_gitfetch_libgit2_version();
-  Init_gitfetch_local_checkout();
   Init_gitfetch_push();
-  Init_gitfetch_register_dummy_transport();
   Init_gitfetch_remote_url();
   Init_gitfetch_update_head();
 
