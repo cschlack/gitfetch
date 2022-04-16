@@ -9,8 +9,6 @@ Gem::Specification.new do |s|
   s.license               = "MIT"
   s.files                 = %w( README.md CHANGELOG.md LICENSE )
   s.files                 += Dir.glob("ext/**/*.[ch]")
-  s.files                 += Dir.glob("vendor/libgit2/{cmake,include,src,deps}/**/*")
-  s.files                 += Dir.glob("vendor/libgit2/{CMakeLists.txt,Makefile.embed,AUTHORS,COPYING,libgit2.pc.in}")
   s.extensions            = ['ext/extconf.rb']
   s.metadata              = { "changelog_uri"     => "https://github.com/backhub/gitfetch/blob/master/CHANGELOG.md",
                               "documentation_uri" => "https://rubydoc.info/gems/gitfetch",

@@ -10,6 +10,10 @@ Supports GitHub authentication tokens for remote repositories using HTTP basic a
 
 API docs, see here: https://rubydoc.info/gems/gitfetch
 
+## Requirements
+
+This gem requires [libgit2](http://libgit2.org) >= v1.4
+
 ## Installation
 
 place
