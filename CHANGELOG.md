@@ -1,3 +1,8 @@
+### 0.3.0 (2022-04-20)
+- Don't bundle libgit2 (use system library instead)
+- Remove methods Git.local_checkout, Git.disable_protocol and Git.enable_protocol
+- Update README
+
 ### 0.2.3 (2021-03-26)
 - Add method Git.has_commits?
 
